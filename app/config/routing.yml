@@ -1,18 +1,6 @@
-dream_bundle:
-    resource: "@DreamBundle/Resources/config/routing.yml"
+wellcome:
+    resource: "@WellcomeBundle/Resources/config/routing.yml"
     prefix:   /
-
-user_bundle:
-    resource: "@UserBundle/Resources/config/routing.yml"
-    prefix:   /
-
-file_bundle:
-    resource: "@GeekhubFileBundle/Resources/config/routing.yml"
-    prefix:   /file
-
-_imagine:
-    resource: .
-    type:     imagine
 
 # Internal routing configuration to handle ESI
 # ****** WARNING ******

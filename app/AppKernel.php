@@ -19,17 +19,7 @@ class AppKernel extends Kernel
             new JMS\AopBundle\JMSAopBundle(),
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
-            new Geekhub\DreamBundle\DreamBundle(),
-            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
-            new FPN\TagBundle\FPNTagBundle(),
-            new Geekhub\TagBundle\TagBundle(),
-            new FOS\UserBundle\FOSUserBundle(),
-            new Geekhub\UserBundle\UserBundle(),
-            new HWI\Bundle\OAuthBundle\HWIOAuthBundle(),
-            new Liip\ImagineBundle\LiipImagineBundle(),
-            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
-            new Geekhub\FileBundle\GeekhubFileBundle(),
-            new JMS\SerializerBundle\JMSSerializerBundle(),
+            new Geekhub\WellcomeBundle\WellcomeBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
