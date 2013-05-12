@@ -343,7 +343,6 @@ ul.splash.left li a.active {
     color: #FFF;
     margin-left: -12px;
     padding-left: 32px;
-    width: 242px;
 }
 ul.splash.right li a.active {
     background: url(../../../web/images/base_images/splash_right_active_bg.png) no-repeat left top;
